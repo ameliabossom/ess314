@@ -14,7 +14,7 @@ I am senior undergraduate at the University of Washington taking ESS 314 (Introd
 
 
 What I asked the AI to do: Help me debug a script.
-'''
+"""
 My exact opening prompt:
 I am senior undergraduate at the University of 
 Washington taking ESS 314 (Introduction to Geophysics) with
@@ -33,9 +33,9 @@ When I ask for derivations, show every step.  When I ask about
 code, be specific about which library function and which arguments.
 
 I need help debugging this script:
-# Load and run the buggy refraction script.
-# Locally, the script sits next to this notebook.
-# On Colab, we fetch it from GitHub.
+ Load and run the buggy refraction script.
+ Locally, the script sits next to this notebook.
+ On Colab, we fetch it from GitHub.
 
 import sys
 from pathlib import Path
@@ -56,9 +56,9 @@ if not script.exists():
 
 sys.path.insert(0, str(resources))
 
-# Execute the script directly so we see the printout and plot.
+ Execute the script directly so we see the printout and plot.
 exec(open(script).read())
-'''
+"""
 
 What the AI returned (summary) [3–5 bullets summarising the response. Do NOT paste the full response — instead, capture the gist.]
 
