@@ -1,21 +1,21 @@
-session_id: lab7_session_03
+__session_id:__ lab7_session_03
 
-date: 2026-05-06
+__date:__ 2026-05-06
 
-tool: ChatGPT-4
+__tool:__ ChatGPT-4
 
-duration_minutes: NN
+__duration_minutes:__ NN
 
-context_block_used: Yes 
+__context_block_used__: Yes 
 
 
 
 I am senior undergraduate at the University of Washington taking ESS 314 (Introduction to Geophysics) with Prof. Marine Denolle. My major is physics, with a focus on electromagnetism and thermodynamics in the earth and space. My math background includes calculus, ODEs, linear algebra, and most mathematic physics. My Python comfort level is beginner / intermediate. I am comfortable with scipy, matplotlib, numpy, ObsPy,. This week I am working on using AI. Please assume this background when explaining things. If your answer relies on something I might not know, say so explicitly before continuing. When I ask for derivations, show every step. When I ask about code, be specific about which library function and which arguments.
 
 
-What I asked the AI to do: Help me debug a script.
-"""
-My exact opening prompt:
+__What I asked the AI to do:__ Help me debug a script.
+
+__My exact opening prompt:__
 I am senior undergraduate at the University of 
 Washington taking ESS 314 (Introduction to Geophysics) with
 Prof. Marine Denolle.  My major is physics, with a focus on 
@@ -58,16 +58,24 @@ sys.path.insert(0, str(resources))
 
  Execute the script directly so we see the printout and plot.
 exec(open(script).read())
-"""
 
-What the AI returned (summary) [3–5 bullets summarising the response. Do NOT paste the full response — instead, capture the gist.]
 
-What I cross-checked, and against what [Name the specific page, equation, or notebook cell you verified the response against. Examples:
+__What the AI returned (summary):__
+* That the bug is in the np.polyfit.
+* It fits the early/direct-wave branch plus transition points, not the far-offset refracted branch.
+* It then showed me what to change.
 
-"Lowrie & Fichtner Ch. 4 §4.2.2, equation 4.34" "Lab 3 notebook, cell labelled # Step 5 — fit V2" "ESS 314 lecture 06_seismic_refraction_I, §3 Mathematical Framework"] What the AI got right [Bullet list.]
+__What I cross-checked, and against what__: 
+I cross checked against the lab 3 notebook to see what I should expect the data to look like. 
 
-What the AI got wrong, or what it missed [Bullet list. If nothing, write "Nothing detected at this depth of checking — flag for re-verification later."]
+__What the AI got right:__
+* The whole script. The outputs I got are the ones I expected and the graph is as expected as well.
 
-What I would do differently next time [One sentence on prompt strategy, e.g., "I would supply the two-layer geometry as a sketch description first, before asking for the derivation."]
+__What the AI got wrong, or what it missed__:
+* Nothing detected. 
 
-Citation block for my final report [A short, paste-ready citation, e.g.: "ChatGPT-4 (OpenAI). Conversation on derivation of refraction intercept time. Personal communication, 5 May 2026. Used to scaffold §3.1 of methods section; all equations independently re-derived from Lowrie & Fichtner Ch. 4."]
+__What I would do differently next time:__
+Next time, I would ask for my insight on what the new model does and also provide it more of my reasoning to why I thought the first model was wrong.
+
+__Citation block for my final report:__
+OpenAI ChatGPT, “clean_refraction_picker.py” generated with assistance from GPT-5.5, May 2026. Equations and resources from Marine Donelle which were given to ChatGPT.
