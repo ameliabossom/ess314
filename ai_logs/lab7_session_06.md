@@ -85,4 +85,4 @@ __What I would do differently next time:__
 I have no real things I would change.
 
 __Citation block for my final report:__
-C
+OpenAI ChatGPT, students methods review generated with assistance from GPT-5.5, May 2026. Equations and resources from Marine Donelle which were given to ChatGPT.
