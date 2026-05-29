@@ -1,26 +1,27 @@
-date: YYYY-MM-DD
-tool: [name + version if known]
-session_link: ai_logs/lab7_session_NN.md
-topic: [seismic refraction / earthquake location / NMO / gravity / etc.]
+__date:__ 2026-05-27
+__tool:__ ChatGPT
+__session_link:__ 
+__topic:__ 
 
-What the AI said (quote or paraphrase):
+__What the AI said (quote or paraphrase):__
 
-[paraphrased claim or pasted excerpt — keep it short]
 
-Why it is wrong:
 
-[Specific reason in your own words. One short paragraph.]
+__Why it is wrong:__
 
-Primary-source verification:
 
-[The textbook page, equation number, or course lecture URL that disproves the AI's claim. Include the exact quote if the source contradicts the AI directly.]
+__Primary-source verification:__
 
-How I would have detected this with prompt strategy alone:
 
-[One sentence — e.g., "I should have asked for a unit check before accepting the formula."]
 
-Entry 1
-[Fill in after Part 5.]
+__How I would have detected this with prompt strategy alone:__
+
+
+
+__Entry 1__
+
+The incorrect claim is B. In summary, AI said that claim B is incorrect because it gives the vertical two-way travel time through the upper layer, but the refracted ray does not travel vertically. Claim A and C are correct.
+
 
 Entry 2
 [Add entries as the course progresses — Labs 7, 8, final project.]
