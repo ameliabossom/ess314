@@ -14,35 +14,18 @@ specific sentence and suggest a specific revision.
 
 CRITERIA — evaluate the paragraph against each of the following:
 
-1. Specificity of what was done.
-   [Replace this with your own articulation of what "specific enough"
-   means for a methods section. Examples: instrument model, geophone
-   spacing, source type, line length, shot count.]
+1. Specificity of what was done. Do they talk about the instruments used, type of data taken, the amount taken, in what incraments it was taken, what units and at what distances to name a few.
 
-2. Software identification and version.
-   [Replace with your articulation. Examples: Python package name and
-   version (e.g., "obspy 1.4.0"), or a custom script with a URL or
-   commit hash.]
+2. Software identification and version. Is there the names and/or versions of the Python packages, links to custom scripts, anything that the reader wouldn't automatically know about the software?
 
-3. Parameter values.
-   [Replace with your articulation. Examples: filter corner
-   frequencies (in Hz), regularization value, NMO velocity range,
-   assumed Bouguer density (in kg/m³).]
+3. Parameter values. Do they specify values such as filter corner frequencies, regularization value, NMO velocity range, assumed Bouguer density, and constants or assumptions they used?
 
-4. Data provenance.
-   [Replace with your articulation. Examples: data source named with
-   a URL or DOI, access date stated, repository or DOI for derived
-   products.]
+4. Data provenance. Do they provide data source named with a URL or DOI, access date started, repository or DOI for derived products?
+   
+5. Quantitative results. Are there measurements quoted as numbers with units AND an uncertainty, anomaly magnitudes quoted in mGal or nT, not "high" or "low", do they explain results and/or calculations (do they provede equations used for the equations)?.
 
-5. Quantitative results.
-   [Replace with your articulation. Examples: depths quoted as numbers
-   with units AND an uncertainty, anomaly magnitudes quoted in mGal
-   or nT, not "high" or "low."]
-
-6. Consistency and readability.
-   [Replace with your articulation. Examples: past tense throughout,
-   one voice (active OR passive but not both), defined acronyms,
-   logical flow from acquisition → processing → inversion → result.]
+6. Consistency and readability. Past tense throughout, one voice (active OR passive but not both), defined acronyms, logical flow from acquisition, processing, inversion, result.
+ 
 
 OUTPUT FORMAT — for each criterion, return exactly:
 
